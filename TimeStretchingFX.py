@@ -4,6 +4,10 @@ import sounddevice as sd
 import matplotlib.pyplot as plt
 from scipy.signal import correlate
 
+"""
+Implementation of the SOLA time-scaling algorithm
+"""
+
 # Load the input WAV file
 signal, Fs = sf.read('/Users/karlduggan/Desktop/Hihat_open_1.wav')
 
